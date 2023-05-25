@@ -1,0 +1,44 @@
+.contact__scn,
+.gallery{
+  background: #e4e4e4;
+}
+.tabs__scn ul li a{
+  color: navy !important;
+  border: 1px solid navy !important;
+ }
+.nav-pills .nav-link.active,
+ .nav-pills .show>.nav-link {
+  background: navy !important;
+  color: #fff !important;
+ }
+ .tabs__scn ul li{
+  margin-left: 20px;
+ }
+ .gallery .img__block img{
+  width: 100%;
+  max-height: 360px !important;
+ }
+ .primary-color{
+   color: navy;
+   font-weight: 700;
+ }
+ 
+ @media only screen and (max-width: 768px){
+    
+    .nav-pills{
+       display: flex;
+       flex-direction: row;
+       /* display: block; */
+      
+    }
+    .nav-pills .nav-link
+  {
+    font-size: small;
+   
+ }
+ .tabs__scn ul li{
+    margin-left: 10px;
+    margin-bottom: 8px;
+ }
+
+}
